@@ -5,7 +5,7 @@ import platform
 
 # ✅ 무조건 첫 Streamlit 명령어
 st.set_page_config(
-    page_title="KAIST 규정 챗봇",
+    page_title="KAIST Virtual Agent",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -632,7 +632,7 @@ with st.sidebar:
     # 사이드바 상단에 로고와 타이틀 배치
     st.markdown('<div class="sidebar-header">', unsafe_allow_html=True)
     st.image("kaistlogo.png", width=150)
-    st.markdown('<h1 class="main-title">KAIST ChatBot</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-title">KAIST Virtual Agent</h1>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">KAIST 규정에 대한 질문 및 답변</p>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
     
